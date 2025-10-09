@@ -33,7 +33,7 @@
 <p align="center"><img src="https://img.shields.io/badge/Claris%20FileMaker-4A90E2?style=for-the-badge&logo=apple&logoColor=white" /></p>
 
 #### ⚡ Frontend Development
-<p align="center"><img src="https://skillicons.dev/icons?i=react,js,ts,html,css,tailwind" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=react,js,ts,html,css,tailwind,redux" /></p>
 
 #### 🧠 Tools & Analytics
 <p align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" /></p>
@@ -55,4 +55,4 @@
 
 ---
 
-<p align="center">✨⚡💫 Always coding in neon — thanks for stopping by 🌸⚡💫</p>
+<p align="center">✨⚡💫 Let’s ship dynamic, powerful solutions together! — thanks for stopping by 🌸⚡💫</p>
