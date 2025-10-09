@@ -4,7 +4,7 @@
 
 <p align="center">
 
-  <img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/main/cyber-banner1.gif" alt="Cyber Neon Banner" width="100%" style="max-height:80px; object-fit:cover;" />
+  <img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/main/cyber-banner.gif" alt="Cyber Neon Banner" width="100%" style="max-height:80px; object-fit:cover;" />
 
 </p>
 
