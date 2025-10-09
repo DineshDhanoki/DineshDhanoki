@@ -1,7 +1,7 @@
 <!-- ⚡ Cyber Neon — README for DineshDhanoki -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/main/cyber-banner.gif" alt="Cyber Neon Banner" width="100%" style="max-height:40px; object-fit:cover;" />
+  <img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/main/cyber-banner.gif" alt="Cyber Neon Banner" width="100%" style="max-height:20px; object-fit:cover;" />
 </p>
 
 <h1 align="center">Hi there 👋, I'm <span style="color:#8be9fd;">Dinesh Dhanoki</span></h1>
