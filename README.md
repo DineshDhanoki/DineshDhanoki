@@ -12,12 +12,13 @@
 
 ---
 
-### 🧠 About Me
-> Futuristic problem solver — I build scalable FileMaker applications and modern frontends in React that automate processes and unlock operational efficiency. Let’s make systems smarter. ⚡
+### 🌸✨ About Me
+> Futuristic problem solver — I build scalable FileMaker applications and modern frontends in React that automate processes and unlock operational efficiency.  
+> Let’s make systems smarter. ⚡💫
 
 ---
 
-### 🌐 Connect — Glow Links
+### ⚡🌐 Connect — Glow Links
 <p align="center">
   <a href="https://github.com/DineshDhanoki" target="_blank"><img src="https://img.shields.io/badge/GitHub-222222?style=for-the-badge&logo=github&logoColor=white" /></a>&nbsp;
   <a href="https://linkedin.com/in/dinesh-dhanoki" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
@@ -27,23 +28,31 @@
 
 ---
 
-### ⚙️ Skills (Neon)
+### 💫 Skills — Glowing Badges
+#### 🌸 Low-Code Platforms
+<p align="center"><img src="https://img.shields.io/badge/Claris%20FileMaker-4A90E2?style=for-the-badge&logo=apple&logoColor=white" /></p>
+
+#### ⚡ Frontend Development
 <p align="center"><img src="https://skillicons.dev/icons?i=react,js,ts,html,css,tailwind" /></p>
+
+#### 🧠 Tools & Analytics
+<p align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" /></p>
 
 ---
 
-### 📈 Dark Stats
+### 🌸📈 GitHub Stats (Cyber Dark)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DineshDhanoki&show_icons=true&theme=dark&hide_border=true&border_radius=15" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DineshDhanoki&layout=compact&theme=dark&hide_border=true&border_radius=15" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DineshDhanoki&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DineshDhanoki&layout=compact&theme=tokyonight&hide_border=true&border_radius=15" height="170" />
 </p>
 
 ---
 
-### 🐍 Contribution Snake (Neon)
-<p align="center"><img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/output/github-contribution-grid-snake-dark.svg" alt="snake animation" /></p>
+### 🐍 Contribution Snake (Animated)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
 
 ---
-
 
 --- <p align="center">✨⚡💫 Let’s ship dynamic, powerful solutions together! — thanks for stopping by 🌸⚡💫</p>
