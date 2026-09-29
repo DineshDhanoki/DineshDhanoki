@@ -94,10 +94,6 @@ secure by design             owned from prototype to production
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=DineshDhanoki&hide_border=true&background=00000000&ring=0A84FF&fire=FF9F0A&currStreakLabel=8E8E93&sideLabels=8E8E93&dates=636366&currStreakNum=F5F5F7&sideNums=F5F5F7" alt="Dinesh's GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DineshDhanoki/DineshDhanoki/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution graph" />
-</p>
-
 ---
 
 <p align="center">
