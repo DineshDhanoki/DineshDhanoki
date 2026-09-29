@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Dinesh Dhanoki, Senior AI Engineer</title>
+  <desc id="desc">An animated neural system graphic beside Dinesh Dhanoki's name and role.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#111113"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64D2FF"/>
+      <stop offset="0.34" stop-color="#63E6BE"/>
+      <stop offset="0.68" stop-color="#FFD60A"/>
+      <stop offset="1" stop-color="#FF7A70"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#F5F5F7" stop-opacity="0.94"/>
+      <stop offset="0.18" stop-color="#64D2FF" stop-opacity="0.68"/>
+      <stop offset="0.52" stop-color="#0A84FF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0A84FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="428" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .copy { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .eyebrow { font-size: 14px; font-weight: 600; fill: #A1A1A6; }
+    .name { font-size: 58px; font-weight: 700; fill: #F5F5F7; }
+    .role { font-size: 27px; font-weight: 500; fill: #D2D2D7; }
+    .detail { font-size: 17px; font-weight: 400; fill: #8E8E93; }
+    .chip { font-size: 13px; font-weight: 500; fill: #D2D2D7; }
+    .orbit-a { animation: spin 18s linear infinite; transform-origin: 930px 214px; }
+    .orbit-b { animation: spin-reverse 24s linear infinite; transform-origin: 930px 214px; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .pulse.two { animation-delay: .8s; }
+    .pulse.three { animation-delay: 1.6s; }
+    .signal { stroke-dasharray: 7 16; animation: flow 3.2s linear infinite; }
+    .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+    .d2 { animation-delay: .12s; } .d3 { animation-delay: .24s; } .d4 { animation-delay: .36s; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes spin-reverse { to { transform: rotate(-360deg); } }
+    @keyframes pulse { 0%,100% { opacity: .45; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.15); } }
+    @keyframes flow { to { stroke-dashoffset: -46; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="1198" height="428" rx="28" fill="url(#bg)" stroke="#2C2C2E"/>
+  <g clip-path="url(#frame)">
+    <circle cx="1040" cy="35" r="190" fill="#0A84FF" opacity="0.08" filter="url(#blur)"/>
+    <circle cx="790" cy="435" r="190" fill="#63E6BE" opacity="0.06" filter="url(#blur)"/>
+    <path d="M0 405 C280 360 388 454 655 402 S985 350 1200 390" fill="none" stroke="url(#spectrum)" stroke-width="2" opacity="0.5" class="signal"/>
+  </g>
+  <g class="copy">
+    <g class="rise"><circle cx="73" cy="67" r="5" fill="#30D158"/><text x="89" y="72" class="eyebrow">AVAILABLE FOR HIGH-IMPACT AI COLLABORATION</text></g>
+    <text x="68" y="156" class="name rise d2">Dinesh Dhanoki</text>
+    <text x="70" y="205" class="role rise d3">Senior AI Engineer</text>
+    <text x="70" y="240" class="detail rise d3">Claris · an Apple company</text>
+    <text x="70" y="286" class="detail rise d4">I design production AI systems that retrieve, reason,</text>
+    <text x="70" y="312" class="detail rise d4">learn, and create measurable business value.</text>
+    <g class="rise d4">
+      <rect x="69" y="344" width="88" height="35" rx="17.5" fill="#1C1C1E" stroke="#38383A"/><text x="91" y="366" class="chip">RAG</text>
+      <rect x="168" y="344" width="119" height="35" rx="17.5" fill="#1C1C1E" stroke="#38383A"/><text x="189" y="366" class="chip">ML systems</text>
+      <rect x="298" y="344" width="123" height="35" rx="17.5" fill="#1C1C1E" stroke="#38383A"/><text x="319" y="366" class="chip">Data products</text>
+      <rect x="432" y="344" width="118" height="35" rx="17.5" fill="#1C1C1E" stroke="#38383A"/><text x="453" y="366" class="chip">Production AI</text>
+    </g>
+  </g>
+  <g>
+    <circle cx="930" cy="214" r="106" fill="url(#core)" opacity="0.36"/>
+    <g class="orbit-a" fill="none" stroke="#48484A"><ellipse cx="930" cy="214" rx="145" ry="72" transform="rotate(-18 930 214)"/><ellipse cx="930" cy="214" rx="124" ry="46" transform="rotate(48 930 214)" opacity="0.72"/></g>
+    <g class="orbit-b" fill="none" stroke="#3A3A3C"><ellipse cx="930" cy="214" rx="80" ry="154" transform="rotate(60 930 214)"/><circle cx="930" cy="214" r="118" stroke-dasharray="2 12" opacity="0.75"/></g>
+    <circle cx="930" cy="214" r="38" fill="#111113" stroke="#F5F5F7" stroke-opacity="0.6"/><circle cx="930" cy="214" r="9" fill="#F5F5F7" filter="url(#glow)"/>
+    <path d="M930 176 L866 143 M960 197 L1034 160 M960 233 L1022 282 M908 244 L842 290" stroke="#636366"/>
+    <circle cx="866" cy="143" r="7" fill="#64D2FF" class="pulse" filter="url(#glow)"/><circle cx="1034" cy="160" r="6" fill="#63E6BE" class="pulse two" filter="url(#glow)"/><circle cx="1022" cy="282" r="7" fill="#FFD60A" class="pulse three" filter="url(#glow)"/><circle cx="842" cy="290" r="6" fill="#FF7A70" class="pulse two" filter="url(#glow)"/><circle cx="786" cy="226" r="4" fill="#F5F5F7" class="pulse three"/><circle cx="1080" cy="230" r="4" fill="#F5F5F7" class="pulse"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Production AI system loop</title>
+  <desc id="desc">An animated flow from signal through retrieval, reasoning, action, and learning.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#64D2FF"/><stop offset="0.35" stop-color="#63E6BE"/><stop offset="0.7" stop-color="#FFD60A"/><stop offset="1" stop-color="#FF7A70"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .label { font-size: 17px; font-weight: 600; fill: #F5F5F7; }
+    .sub { font-size: 12px; font-weight: 400; fill: #8E8E93; }
+    .path { stroke-dasharray: 8 14; animation: travel 3s linear infinite; }
+    .node { animation: breathe 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .n2 { animation-delay: .35s; } .n3 { animation-delay: .7s; } .n4 { animation-delay: 1.05s; } .n5 { animation-delay: 1.4s; }
+    @keyframes travel { to { stroke-dashoffset: -44; } }
+    @keyframes breathe { 0%,100% { opacity: .62; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="1198" height="248" rx="22" fill="#0B0B0C" stroke="#2C2C2E"/>
+  <text x="52" y="48" class="text sub">A PRODUCTION SYSTEM, NOT A MODEL DEMO</text>
+  <path d="M103 126 H1097" fill="none" stroke="#2C2C2E" stroke-width="2"/><path d="M103 126 H1097" fill="none" stroke="url(#line)" stroke-width="2" class="path" opacity="0.8"/>
+  <g class="text" text-anchor="middle">
+    <g class="node"><circle cx="110" cy="126" r="22" fill="#111113" stroke="#64D2FF"/><circle cx="110" cy="126" r="5" fill="#64D2FF" filter="url(#glow)"/><text x="110" y="181" class="label">Signal</text><text x="110" y="204" class="sub">events + data</text></g>
+    <g class="node n2"><circle cx="355" cy="126" r="22" fill="#111113" stroke="#63E6BE"/><path d="M346 126h18M355 117v18" stroke="#63E6BE" stroke-width="2"/><text x="355" y="181" class="label">Retrieval</text><text x="355" y="204" class="sub">context + evidence</text></g>
+    <g class="node n3"><circle cx="600" cy="126" r="22" fill="#111113" stroke="#F5F5F7"/><path d="M591 130c7-18 11 13 18-8" fill="none" stroke="#F5F5F7" stroke-width="2"/><text x="600" y="181" class="label">Reasoning</text><text x="600" y="204" class="sub">models + guardrails</text></g>
+    <g class="node n4"><circle cx="845" cy="126" r="22" fill="#111113" stroke="#FFD60A"/><path d="M837 126l6 6 11-13" fill="none" stroke="#FFD60A" stroke-width="2"/><text x="845" y="181" class="label">Action</text><text x="845" y="204" class="sub">tools + decisions</text></g>
+    <g class="node n5"><circle cx="1090" cy="126" r="22" fill="#111113" stroke="#FF7A70"/><path d="M1082 128a9 9 0 1 0 3-9M1082 118v10h10" fill="none" stroke="#FF7A70" stroke-width="2"/><text x="1090" y="181" class="label">Learning</text><text x="1090" y="204" class="sub">evaluate + improve</text></g>
+  </g>
+</svg>
